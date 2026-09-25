@@ -1,2 +1,12 @@
-export const metadata = { title: 'Migracao Relampago', description: 'Migre de Switchboard para Pyth' }
-export default function RootLayout({children}:{children:React.ReactNode}){ return (<html lang="pt"><body style={{margin:0}}>{children}</body></html>)}
+export const metadata = {
+  title: 'Migração Relâmpago | Pagamento',
+  description: 'Escolha como pagar pela migração para Pyth via Solana, Pix ou WhatsApp.',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="pt-BR">
+      <body style={{ margin: 0 }}>{children}</body>
+    </html>
+  )
+}
